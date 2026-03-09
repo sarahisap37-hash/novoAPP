@@ -11,7 +11,8 @@ const TabsLayout = () => {
             tabBarStyle: {
                 paddingBottom : 30,
                 paddingTop: 10,
-                backgroundColor : colors.bg
+                backgroundColor : colors.bg,
+
             },
             headerShown: false
         }}>
@@ -21,12 +22,19 @@ const TabsLayout = () => {
                     <Ionicons name='home' color={color} size={size}/>
                   ) 
             }} />
-           <Tabs.Screen name='settings' options={
+           <Tabs.Screen name='setting' options={
                 { title: "Settings",
                   tabBarIcon : ({color, size}) => (
                     <Ionicons name='settings' color={color} size={size}/>
                   ) 
             }} />
+            <Tabs.Screen name='users' options={
+                { title: "Users",
+                  tabBarIcon : ({color, size}) => (
+                    <Ionicons name='person' color={color} size={size}/>
+                  ) 
+            }} />
+            
         </Tabs>
     )
 }

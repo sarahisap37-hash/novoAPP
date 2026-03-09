@@ -32,7 +32,7 @@ export interface ColorScheme {
 const lightColors: ColorScheme = {
   bg: "#f8fafc",
   surface: "#ffffff",
-  text: "#1e293b",
+  text: "#11213b",
   textMuted: "#64748b",
   border: "#e2e8f0",
   primary: "#3b82f6",
@@ -58,9 +58,9 @@ const lightColors: ColorScheme = {
 };
 
 const darkColors: ColorScheme = {
-  bg: "#0f172a",
+  bg: "#09273b",
   surface: "#1e293b",
-  text: "#f1f5f9",
+  text: "#60779c",
   textMuted: "#94a3b8",
   border: "#334155",
   primary: "#60a5fa",

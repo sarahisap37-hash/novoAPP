@@ -24,20 +24,20 @@ const Header = () => {
     <View style={homeStyles.header}>
       <View style={homeStyles.titleContainer}>
         <LinearGradient colors={colors.gradients.primary} style={homeStyles.iconContainer} >
-        <Ionicons name='calendar' size={30} color={"#fff"} />
+        <Ionicons name='calendar' size={30} color={"#000000"} />
         </LinearGradient>
     </View>
 
       {/*TEXTO*/ }
         <View style={homeStyles.titleTextContainer}>
-          <Text style={homeStyles.title}> TAREFAS DE HOJE 😁</Text>
+          <Text style={homeStyles.title}> TAREFAS DE HOJE 😁 </Text>
           <Text style={homeStyles.subtitle}> {todoCompletos} de {todoTotal}</Text>
         </View>
 
         <View style={homeStyles.progressContainer}>
           <View style={homeStyles.progressBarContainer}>
             <View style={homeStyles.progressBar}>
-              <LinearGradient colors={["#3b1850","#2649aa"]} style = {[homeStyles.progressFill, {width: `${barraDeProgresso}%`}]}/>
+              <LinearGradient colors={["#8a19c7","#000000"]} style = {[homeStyles.progressFill, {width: `${barraDeProgresso}%`}]}/>
             </View>
           </View>
         </View>
