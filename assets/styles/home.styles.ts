@@ -236,7 +236,7 @@ export const createHomeStyles = (colors: ColorScheme) => {
 
     img: {
       width: 100,
-      height:100
+      height: 100
     }
   });
 

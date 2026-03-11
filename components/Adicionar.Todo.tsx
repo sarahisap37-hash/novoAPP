@@ -35,7 +35,8 @@ const AdicionarTodo = () => {
           </LinearGradient>
         </TouchableOpacity>
       </View>
-      <Image source={{uri:"https://user-images.githubusercontent.com/69080584/119517399-c6f10280-bda1-11eb-9af9-4bdc197dcd65.png"}}></Image>
+        <Image style={homeStyles.img} source={{uri:"https://repository-images.githubusercontent.com/613620748/060af7bd-c967-4e09-8d2e-b15bd29ba771"}} />
+        
     </View>
 
  )
