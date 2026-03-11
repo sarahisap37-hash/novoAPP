@@ -60,7 +60,7 @@ const lightColors: ColorScheme = {
 const darkColors: ColorScheme = {
   bg: "#09273b",
   surface: "#1e293b",
-  text: "#60779c",
+  text: "#a7bee2",
   textMuted: "#94a3b8",
   border: "#334155",
   primary: "#60a5fa",
