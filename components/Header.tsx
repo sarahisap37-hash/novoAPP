@@ -3,7 +3,7 @@ import useTheme from '@/hooks/useTheme';
 import { api } from "@/convex/_generated/api";
 import { Ionicons } from "@expo/vector-icons";
 import { useQuery } from "convex/react";
-import { LinearGradient } from 'expo-linear-gradient'
+import { LinearGradient } from 'expo-linear-gradient';
 
 import React from 'react';
 import { Text, View } from 'react-native'
